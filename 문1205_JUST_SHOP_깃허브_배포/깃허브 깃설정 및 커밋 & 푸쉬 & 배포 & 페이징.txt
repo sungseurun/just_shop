@@ -1,7 +1,7 @@
 깃허브 깃설정 및 커밋 & 푸쉬 & 배포 & 페이징
 
 깃허브 사이트
-1. 웹브라우저 열기 - 깃허브 로그인  tmfjs5902@gamail.com / gksksla22!!
+1. 웹브라우저 열기 - 깃허브 로그인
 2. 리파지토리 만들기
 
 
@@ -29,8 +29,9 @@ drwxr-xr-x 1 Administrator 197121       0 12월  5 10:02  src/
 
 git init
 
+
 $ git init
-Initialized empty Git repository in D:/성스런_산출물/1205_JUST_SHOP_깃허브_배포/.git/
+Initialized empty Git repository in D:/국기프론트앤드3기_교사문선종/강의산출물/1205_JUST_SHOP_깃허브_배포/.git/
 
 
 깃설정 목록 확인
@@ -49,16 +50,17 @@ drwxr-xr-x 1 Administrator 197121       0 12월  5 09:56  public/
 -rw-r--r-- 1 Administrator 197121    3359 11월 25 10:07  README.md
 drwxr-xr-x 1 Administrator 197121       0 12월  5 10:02  src/
 -rw-r--r-- 1 Administrator 197121    1353 12월  5 10:22 '깃허브 깃설정 및 커밋 & 푸쉬 & 배포 & 페이징.txt'
--rw-r--r-- 1 Administrator 197121    2506 11월 25 12:04  리액트CRA_실행순.txt
+-rw-r--r-- 1 Administrator 197121    2506 11월 25 12:04  리액트CRA_실행순선.txt
 
 
-깃환경설정  (git config)
+
+깃환경설정  git config
 
 사용자 이름
 사용자 이메일
 
-git config user.name 'sungseurun'
-git config user.email 'tmfjs5902@gmail.com
+git config user.name 'moonjongjs'
+git config user.email 'moonseonjong@naver.com'
 
 
 화면청소
@@ -73,11 +75,11 @@ git config user.email
 
 
 $ git config user.name
-sungseurun
+moonjongjs
 
 
 $ git config user.email
-tmfjs5902@gmail.com
+moonseonjong@naver.com
 
 
 //////////////////////////
@@ -124,7 +126,7 @@ git add .
 
 /////////////////////////////////////////////////////
 커밋(commit) 하기 
-**  -m  =>  message 
+-m => message 
 
 git commit -m  '리액트 create-react-app 저스트 쇼핑몰'
 
@@ -182,7 +184,7 @@ remote:
 remote: GitHub found 1 vulnerability on moonjongjs/just_shop's default branch (1 high). To find out more, visit:    
 remote:      https://github.com/moonjongjs/just_shop/security/dependabot/1
 remote:
-To https://github.com/tmfjs5902/just_shop.git
+To https://github.com/moonjongjs/just_shop.git
    a34c0e7..3bb57df  master -> master
 
 
